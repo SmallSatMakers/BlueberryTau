@@ -1,6 +1,6 @@
 (footprint "TE_2201778-1" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62192248)
+  (tedit 621DB4C2)
   (attr through_hole)
   (fp_text reference "REF**" (at -4.32297 -8.39164) (layer "F.SilkS")
     (effects (font (size 1.00115 1.00115) (thickness 0.15)))
@@ -64,4 +64,9 @@
   (pad "14" smd rect (at 6.95 -6.85) (size 0.65 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 83c21344-33b4-4b36-aef3-8bbb7f15ba40))
   (pad "15" smd rect (at 6.975 -0.925) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dc8e1d40-6cc3-44c2-9cf6-dc3bbe51b2d2))
   (pad "16" smd rect (at 6.695 7.05) (size 1.16 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 117bb83b-fd0d-4a7f-99a7-4b0a092f31cd))
+  (model "${KIPRJMOD}/blueberrytau.models/2201778-1.stp"
+    (offset (xyz 0 -8.25 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

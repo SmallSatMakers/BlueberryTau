@@ -1,6 +1,6 @@
 (footprint "PANASONIC_AXT630124" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 621552EA)
+  (tedit 621DB417)
   (attr through_hole)
   (fp_text reference "REF**" (at -0.635 -3.175) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -289,5 +289,10 @@
         (xy -2.915 0.85)
       )
     )
+  )
+  (model "${KIPRJMOD}/blueberrytau.models/axt630124.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )
